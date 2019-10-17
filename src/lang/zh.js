@@ -1,0 +1,52 @@
+export default {
+  route: {
+    dashboard: '首页',
+    BasicData: '基础类型',
+    BasicInformation: '基础信息',
+    Company: '公司信息',
+    StaffInformation: '员工信息',
+    Department: '部门管理',
+    Platform: '平台管理',
+    Site: '站点管理',
+    Blurb: '商品信息',
+    Category: '类别管理',
+    Brand: '品牌管理',
+    Style: 'Style管理',
+    SkuMaterialComponent: 'SKU材料组件管理',
+    MaterialInformation: '材料信息',
+    Color: 'COLOR管理',
+    Size: 'SIZE管理',
+    Box: '盒子管理',
+    Case: '箱规管理',
+    SkuOtherInformation: 'SKU其他信息管理',
+    Sku: 'SKU管理',
+    SkuPlatform: '平台SKU管理',
+    Warehouse: '仓库管理',
+    Storage: '仓库管理',
+    StorageArea: '储区管理',
+    Shelf: '货架管理',
+    Container: '容器管理',
+    Location: '库位管理',
+    WarehousePlatform: '月台管理',
+    JobGroup: '作业组管理',
+    ThirdParty: '第三方信息',
+    Supplier: '供应商管理',
+    Forwarder: '货代管理',
+    Added: '添加',
+    Details: '详情'
+  },
+  navbar: {
+    dashboard: '首页',
+    github: '项目地址',
+    logOut: '退出登录',
+    profile: '个人中心',
+    theme: '换肤',
+    size: '布局大小'
+  },
+  login: {
+    title: 'WMS系统登录',
+    logIn: '登录',
+    username: '账号',
+    password: '密码'
+  }
+}
