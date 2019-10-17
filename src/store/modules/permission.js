@@ -80,6 +80,7 @@ const actions = {
   createRoutes({ commit }, routes) {
     return new Promise(resolve => {
       // const accessedRoutes = recursionRoutesMap(routes)
+      // accessedRoutes.push({ path: '*', redirect: '/404', hidden: true })
       const accessedRoutes = routes
       commit('SET_ROUTES', accessedRoutes)
       resolve(accessedRoutes)
